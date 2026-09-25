@@ -1,5 +1,5 @@
 /* =========================================================
-   Achraf Maalaoui — Portfolio
+   Achraf Maalaoui - Portfolio
    Main behaviour: i18n rendering, nav, animations
    ========================================================= */
 
@@ -12,8 +12,8 @@
   };
 
   const TITLES = {
-    en: "Achraf Maalaoui | DevOps & Platform Engineer — AWS · Kubernetes · Terraform",
-    fr: "Achraf Maalaoui | Ingénieur DevOps & Plateforme — AWS · Kubernetes · Terraform",
+    en: "Achraf Maalaoui | DevOps & Platform Engineer - AWS · Kubernetes · Terraform",
+    fr: "Achraf Maalaoui | Ingénieur DevOps & Plateforme - AWS · Kubernetes · Terraform",
   };
 
   /* ---------- Helpers ---------- */
@@ -120,7 +120,7 @@
           <div class="tl-earlier">
             ${exp.earlier
               .map(
-                (e) => `<div class="tl-earlier-item"><b>${e.role}</b> — ${e.company} <span style="opacity:.65">(${e.date})</span></div>`
+                (e) => `<div class="tl-earlier-item"><b>${e.role}</b> - ${e.company} <span style="opacity:.65">(${e.date})</span></div>`
               )
               .join("")}
           </div>
